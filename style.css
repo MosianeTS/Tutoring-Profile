@@ -184,6 +184,11 @@ header {
         background-repeat: no-repeat;
         margin:0;
         max-width: 350px;
+        max-height:240px;
+    }
+
+    #mina {
+        padding-left: 30px;
     }
 
     .intro-section p {
@@ -263,11 +268,11 @@ header {
     } 
 
     .about-me-section img {
-        width:250px;
+        width:200px;
         height:auto;
         border-radius:12%; 
         padding:0;
-        margin-left:25px;
+        margin-left:40px;
     }
 }
 
@@ -325,6 +330,8 @@ header {
     .my-services-section {
         max-width: 350px;
     }
+
+    
     .my-services-sub-section {
         display: flex;
         flex-direction: column;
@@ -353,7 +360,7 @@ header {
 @media (max-width:600px) {
 
     .education-section {
-        max-width: 350px;
+        max-width: 310px;
     }
     .education-item {
         max-width:300px;        
@@ -373,7 +380,7 @@ header {
 }
 
 .testimonial-item {
-    width: 350px;
+    min-width: 300px;
     
 }
 
